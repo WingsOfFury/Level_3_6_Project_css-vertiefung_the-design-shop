@@ -252,7 +252,7 @@ footer .trademark {
 
 @media only screen and (max-width: 600px) {
   html {
-    font-size: 9px;
+    font-size: 6px;
     margin: auto 12%;
   }
 
@@ -283,6 +283,10 @@ footer .trademark {
   .lastThreeItems {
     display: block;
     margin: 2rem 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
   }
 
   .firstSixItems > *,
@@ -290,7 +294,7 @@ footer .trademark {
   .thirdSixItems > *,
   .fourthSixItems > *,
   .lastThreeItems > * {
-    width: 100%;
+    width: 60%;
     margin-bottom: 20px;
   }
 
