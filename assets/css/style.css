@@ -258,16 +258,21 @@ footer .trademark {
   }
 
   header {
-    height: 16vh;
+    height: 10vh;
     padding: 10px 0;
   }
 
   header h1 a {
     font-size: 1.7rem;
+    display: flex;
+    flex-direction: column;
   }
 
   header nav ul {
     gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
   }
 
   #backToTop {
@@ -295,12 +300,12 @@ footer .trademark {
   .thirdSixItems > *,
   .fourthSixItems > *,
   .lastThreeItems > * {
-    width: 70%;
+    width: 60%;
     margin-bottom: 20px;
   }
 
   footer {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     margin-top: 2rem;
     text-align: center;
