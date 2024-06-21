@@ -205,6 +205,7 @@ figcaption.price {
 
 footer {
   display: grid;
+  justify-items: center;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
   margin: 2rem 0;
@@ -257,7 +258,7 @@ footer .trademark {
   }
 
   header {
-    height: height: 16vh;
+    height: 16vh;
     padding: 10px 0;
   }
 
