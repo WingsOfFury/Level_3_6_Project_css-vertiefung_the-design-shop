@@ -271,7 +271,7 @@ footer .trademark {
   header nav ul {
     gap: 2rem;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     text-align: right;
   }
 
@@ -300,7 +300,7 @@ footer .trademark {
   .thirdSixItems > *,
   .fourthSixItems > *,
   .lastThreeItems > * {
-    width: 60%;
+    width: 80%;
     margin-bottom: 20px;
   }
 
